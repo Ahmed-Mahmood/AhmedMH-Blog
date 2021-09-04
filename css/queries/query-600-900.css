@@ -1,0 +1,25 @@
+/* index */
+#home-content {
+  width: 70%;
+}
+
+#subscribe-email,
+#subscribe-btn{
+  /* width: 65%; */
+}
+.card {
+  min-width: 14rem;
+  max-width: 14rem;
+}
+
+.contact {
+  width: 70%;
+}
+
+/* post */
+#auther {
+  width: 65%;
+}
+#content {
+  width: 70%;
+}

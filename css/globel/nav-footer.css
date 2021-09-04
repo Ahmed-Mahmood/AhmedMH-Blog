@@ -1,0 +1,41 @@
+#nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background: var(--two);
+  color: #fff;
+  width: 100vw;
+  height: 4rem ;
+  padding: 0 3rem;
+  grid-template-columns: 1fr auto;
+  box-shadow: 0px 0px 10px 4px #000000a8;
+  z-index: 1001;
+}
+
+.main-heading {
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: .5rem;
+  color: #fff;
+}
+
+.main-heading>span {
+  text-transform: uppercase;
+}
+
+#footer {
+  min-height: 4rem;
+  background: var(--two);
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #fff;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}

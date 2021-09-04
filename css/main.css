@@ -1,0 +1,93 @@
+@import "globel/nav-footer.css";
+@import "index/home.css";
+@import "index/blogs-cards.css";
+@import "index/contact.css";
+@import "post-page.css";
+@import "queries/query-321-599.css" (min-width: 321px) and (max-width: 599px);
+@import "queries/query-600-900.css" (min-width: 600px) and (max-width: 900px);
+@import "queries/query-max320.css" (max-width: 320px);
+@import "queries/query-min901.css" (min-width: 901px);
+
+:root {
+  --one:#9f0c24;
+  --two:#936846;
+  --three: #d4681b;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  color: #666;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sec-heading {
+  font-size: 1.75rem;
+  text-transform: capitalize;
+  color: var(--two);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+a:focus{
+  outline: none;
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.icons {
+  margin: 1rem auto;
+  justify-content: center;
+}
+
+#home .icons {
+  justify-content: start;
+}
+.icons i {
+  margin: 0 0.25rem;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color:var(--one);
+  border-radius: 50%;
+  border: 0.1rem solid var(--one);
+  transition: color 1s ease, background 1s ease , border 1s ease;
+  cursor: pointer;
+}
